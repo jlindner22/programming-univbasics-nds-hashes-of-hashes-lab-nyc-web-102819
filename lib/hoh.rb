@@ -29,7 +29,7 @@
 # }
 
 def naming_system
- domain_hash = [
+ domain_hash = {
     :kingdom => {
      :phylum => {
       :class => {
@@ -37,8 +37,7 @@ def naming_system
       }
       }
   }
-
-]
+}
 
  #  label: "Kingdom",
 #   sub_category: {
