@@ -31,7 +31,7 @@
 # }
 
 def naming_system
-  world_hash = {
+  domain_hash = {
     kingdom: {},
     phylum: {},
     class: {}
