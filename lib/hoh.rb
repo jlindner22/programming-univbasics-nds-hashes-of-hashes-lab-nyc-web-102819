@@ -29,18 +29,18 @@
 # }
 
 def naming_system
+   order = {
+   :label => "Order"
+ }
     domain = {
   :label => "Kingdom",
    :sub_category => {
      :label => "Phylum",
      :sub_category => {
-       :label => "Class"
+       :label => "Class",
+        :sub_category => order
      }
    }
- }
- {
-   :label => "Order"
- }
  {
    :label => "Family",
    :sub_category => {
@@ -51,7 +51,7 @@ def naming_system
    :label => "Species",
    :sub_category => nil
 }
- 
+  
  
  #   :kingdom => 
  #     :phylum => {
