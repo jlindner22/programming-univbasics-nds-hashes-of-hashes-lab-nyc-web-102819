@@ -36,7 +36,6 @@ def naming_system
   }
     }
     order: {}
-    }
   }
  #  label: "Kingdom",
 #   sub_category: {
