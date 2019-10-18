@@ -29,10 +29,8 @@
 # }
 
 def naming_system = [
-  PORTION_1,
-  PORTION_2,
-  PORTION_3,
-  PORTION_4,
+
+
 ]
 
  #  label: "Kingdom",
