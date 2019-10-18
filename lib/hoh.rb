@@ -32,12 +32,13 @@ def naming_system
  domain_hash = {
     :kingdom => {
       :phylum => {
-        :class => {}
-        
+        :class => {
+          :order => {}
+        }
       }
   }
 }
-domain_hash[:kingdom][:phylum] = {:class => "Order"}
+domain_hash[:kingdom][:phylum][:class] = {:order => "Order"}
   # Remember:
   #  Kingdom
   #  Phylum
