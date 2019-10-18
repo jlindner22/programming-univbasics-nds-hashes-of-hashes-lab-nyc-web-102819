@@ -31,6 +31,20 @@
 # }
 
 def naming_system
+  world_hash = {
+    kingdom: {},
+    phylum: {},
+    class: {}
+  }
+  
+ #  label: "Kingdom",
+#   sub_category: {
+#     label: "Phylum",
+#     sub_category: {
+#       label: "Class"
+#     }
+#   }
+# }
   # Remember:
   #  Kingdom
   #  Phylum
