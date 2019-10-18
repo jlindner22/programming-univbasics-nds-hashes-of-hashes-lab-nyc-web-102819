@@ -30,7 +30,8 @@
 
 def naming_system
  domain = {
-    :kingdom => {
+   :label => "Kingdom"
+    :kingdom => 
       :phylum => {
         :class => {
           :order => {}
