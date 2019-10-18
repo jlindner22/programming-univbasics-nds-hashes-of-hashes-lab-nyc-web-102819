@@ -29,7 +29,7 @@
 # }
 
 def naming_system
- domain_hash = {
+ domain = {
     :kingdom => {
       :phylum => {
         :class => {
