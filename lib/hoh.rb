@@ -29,6 +29,8 @@
 # }
 
 def naming_system
+   family = { :sub_category => "Order"
+ }
    order = {
    :label => "Order"
  }
