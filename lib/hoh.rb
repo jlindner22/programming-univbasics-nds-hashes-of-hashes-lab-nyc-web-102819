@@ -29,7 +29,7 @@ PORTION_1 = {
 }
 
 def naming_system
- PORTION_1 = {
+   domain = {
   label: "Kingdom",
    sub_category: {
      label: "Phylum",
@@ -38,25 +38,20 @@ def naming_system
      }
    }
  }
- 
- PORTION_2 = {
+ {
    label: "Order"
  }
- 
- PORTION_3 = {
+ {
    label: "Family",
    sub_category: {
      label: "Genus",
    }
  }
- 
- PORTION_4 = {
+{
    label: "Species",
    sub_category: nil
 }
  
- domain = {
-
  
  #   :kingdom => 
  #     :phylum => {
