@@ -28,7 +28,7 @@
 #   sub_category: nil
 # }
 
-def naming_system = [
+def naming_system [
  domain_hash = {
     :kingdom => {
      :phylum => {
