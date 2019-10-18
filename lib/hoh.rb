@@ -55,8 +55,6 @@ def naming_system
    sub_category: nil
 }
  
- 
- 
  domain = {
   PORTION_1,
   PORTION_2,
