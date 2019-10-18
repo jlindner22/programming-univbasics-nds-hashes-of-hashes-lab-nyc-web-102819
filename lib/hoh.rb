@@ -41,12 +41,12 @@ def naming_system
         :sub_category => order
      }
    }
- {
-   :label => "Family",
-   :sub_category => {
-    :label => "Genus",
-   }
- }
+# {
+#   :label => "Family",
+#   :sub_category => {
+#     :label => "Genus",
+#   }
+# }
 {
    :label => "Species",
    :sub_category => nil
