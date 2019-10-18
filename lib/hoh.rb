@@ -29,10 +29,15 @@
 # }
 
 def naming_system
-   family = { :sub_category => "Order"
- }
+   family = {
+  :label => "Family",
+  :sub_category => {
+    :label => "Genus",
+  }
+}
    order = {
-   :label => "Order"
+   :label => "Order" 
+   :sub_category => family
  }
     domain = {
   :label => "Kingdom",
@@ -40,7 +45,7 @@ def naming_system
      :label => "Phylum",
      :sub_category => {
        :label => "Class",
-        :sub_category => order
+        :sub_category => order 
      }
    }
     }
