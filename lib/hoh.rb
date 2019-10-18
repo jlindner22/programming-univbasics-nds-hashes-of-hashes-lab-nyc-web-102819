@@ -36,7 +36,7 @@ def naming_system
   }
 }
    order = {
-   :label => "Order" 
+   :label => "Order", 
    :sub_category => family
  }
     domain = {
