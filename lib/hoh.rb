@@ -32,8 +32,7 @@ def naming_system
   domain_hash = {
     kingdom: {
      phylum: {
-      class: {
-        order: {}
+      class: {"Order"
       }
   }
     }
