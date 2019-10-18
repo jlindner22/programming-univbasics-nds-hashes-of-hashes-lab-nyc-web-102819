@@ -35,6 +35,7 @@ def naming_system
       class: {}
   }
     order: {}
+    }
  #  label: "Kingdom",
 #   sub_category: {
 #     label: "Phylum",
