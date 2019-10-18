@@ -51,5 +51,4 @@ def naming_system
   #  Family
   #  Genus
   #  Species
-  domain_hash
 end
