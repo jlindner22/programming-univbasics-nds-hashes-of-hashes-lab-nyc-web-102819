@@ -44,7 +44,7 @@ domain_hash[:kingdom][:phylum][:class] = {:order => "Order"}
   #  Phylum
   #  Class
   #  Order
-  #  Family
-  #  Genus
-  #  Species
+  #  :family
+  #  :genus
+  #  :species
 end
