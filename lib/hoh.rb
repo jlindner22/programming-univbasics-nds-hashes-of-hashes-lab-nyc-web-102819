@@ -29,7 +29,7 @@
 # }
 
 def naming_system
-   {
+    domain = {
   :label => "Kingdom",
    :sub_category => {
      :label => "Phylum",
@@ -69,4 +69,5 @@ def naming_system
   #  :family
   #  :genus
   #  :species
+  domain
 end
