@@ -33,8 +33,12 @@ def naming_system
   :label => "Family",
   :sub_category => {
     :label => "Genus",
-  }
+    :sub_category => {
+        :label => "Species",
+  :sub_category => nil
 }
+    }
+  }
    order = {
    :label => "Order", 
    :sub_category => family
@@ -49,27 +53,6 @@ def naming_system
      }
    }
     }
-{
-  :label => "Species",
-  :sub_category => nil
-}
-  
- 
- #   :kingdom => 
- #     :phylum => {
- #       :class => {
-  #        :order => {}
- #       }
- #     }
-#  }
-# }
-  # Remember:
-  #  Kingdom
-  #  Phylum
-  #  Class
-  #  Order
-  #  :family
-  #  :genus
-  #  :species
+
   domain
 end
