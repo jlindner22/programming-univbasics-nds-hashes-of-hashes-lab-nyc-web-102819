@@ -45,6 +45,7 @@ def naming_system
 #     }
 #   }
 # }
+ label: "Order"
   # Remember:
   #  Kingdom
   #  Phylum
