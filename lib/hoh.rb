@@ -30,9 +30,9 @@
 
 def naming_system
   domain_hash = {
-    kingdom: {
-     phylum: {
-      class: "Order"
+    :kingdom => {
+     :phylum => {
+      :class => "Order"
       }
   }
     }
