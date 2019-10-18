@@ -34,6 +34,7 @@ def naming_system
      phylum: {
       class: {}
   }
+    }
     order: {}
     }
   }
