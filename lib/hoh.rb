@@ -41,6 +41,7 @@ def naming_system
         :sub_category => order
      }
    }
+    }
 # {
 #   :label => "Family",
 #   :sub_category => {
